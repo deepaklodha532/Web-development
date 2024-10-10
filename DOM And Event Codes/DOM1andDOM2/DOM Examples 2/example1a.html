@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title>Setting Text Using innerText</title>
+		<script>
+			function operate() {
+				let heading = document.querySelector("h3");
+				//heading.innerText = "Our Vision";
+				heading.innerHTML = "<i>Our Motto</i>";
+				//alert(heading.innerText);
+				//alert(heading.innerHTML);
+			}
+		</script>
+	</head>
+
+	<body>
+		<h2>Welcome To SCA</h2>
+		<h3>Our Mission <a href="http://www.scalive.in">Visit Us</a></h3>
+		<p>
+			The mission of the SHARMA COMPUTER ACADEMY is to provide its students with
+			the foundation for lifelong learning
+		</p>
+		<input type="button" value="Click me" onclick="operate()" />
+	</body>
+</html>

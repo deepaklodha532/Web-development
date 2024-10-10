@@ -1,0 +1,71 @@
+1.    tr:nth-child(odd) {
+				background-color: darkgray;
+			}
+
+Sets the background color of every odd number row to darkgray.
+
+2.   tr:nth-child(even) {
+				background-color: darkgray;
+			}
+Sets the background color of every even number row to darkgray.
+
+3. tr:nth-child(1) {
+				background-color: darkgray;
+		   }
+
+  tr:nth-child(4) {
+			       background-color: lightgray; 
+		  }
+
+Sets the background color of row number 1  to darkgray and row number 4 to lightgray
+
+4. tr:nth-child(2n + 3) {
+				background-color: darkgray;
+			}
+
+Sets the background color of every odd numbered row starting from 3 to darkgray.
+
+5. tr:nth-child(2n + 2) {
+				background-color: darkgray;
+			}
+
+Sets the background color of every even numbered row to darkgray.
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sharma Computer Academy</title>
+    <style>
+      div#section {
+        background-color: lightblue;
+      }
+      div#header {
+        text-align: center;
+        background-color: darkblue;
+        color: white;
+        padding: 30px;
+      }
+      div#header span {
+        color: crimson;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <h1><span>S</span>harma <span>C</span>omputer <span>A</span>cademy</h1>
+      <img src="/media/images/scalogo.png" />
+    </div>
+    <div id="section">
+      <h2>Welcome To Sharma Computer Academy</h2>
+      <p>Your one stop solution for all programming needs</p>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+

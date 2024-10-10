@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>Understanding style</title>
+		<script>
+			function showDate() {
+				let today = new Date();
+				let p = document.querySelector("p");
+				let str =
+					today.getDate() +
+					"-" +
+					(today.getMonth() + 1) +
+					"-" +
+					today.getFullYear();
+				p.innerText = str;
+				p.style.fontWeight = "bold";
+				p.style.color = "crimson";
+			}
+		</script>
+	</head>
+
+	<body>
+		<p>Click the button to display current date</p>
+		<input type="button" value="show date" onclick="showDate();" />
+	</body>
+</html>

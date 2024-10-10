@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>Sharma Computer Academy</title>
+    <script>
+      function operate() {
+        // change font color of all children of div to crimson
+        // let div = document.querySelector("div");
+        // let childelem = div.childNodes;
+        // console.log(childelem);
+        // childelem.forEach((elem) => {
+        //   if (elem.nodeType === 1) {
+        //     elem.style.color = "crimson";
+        //   }
+        // });
+		let div = document.querySelector("div");
+		let childelem = div.children;
+		console.log(childelem);
+		for(let elem of childelem){
+			elem.style.color = "crimson";
+		}
+
+      }
+    </script>
+  </head>
+
+  <body>
+    <div>
+      <h2 align="center">Welcome To SCA</h2>
+      <h3>Our Mission</h3>
+      <p>
+        The mission of the SHARMA COMPUTER ACADEMY is to provide its students
+        with the foundation for lifelong learning
+      </p>
+      <h3>Our Courses</h3>
+      <ul>
+        <li>C</li>
+        <li>C++</li>
+        <li>Python</li>
+        <li>Django</li>
+        <li>Java</li>
+        <li>Oracle</li>
+      </ul>
+    </div>
+    <input type="button" value="Click me" onclick="operate()" />
+  </body>
+</html>
